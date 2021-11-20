@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" parallel="tests" thread-count="2" >
+<!-- Parallel Cross-browser testing is done here -->
+<test name="TestingOnChrome">
+<parameter name="browserName" value="chrome"></parameter>
+<classes>
+<class name="Projec1.Cross_Browser_Day1"/>
+</classes>
+</test>
+<test name="TestingOnEdge">
+<parameter name="browserName" value="edge"></parameter>
+<classes>
+<class name="Projec1.Cross_Browser_Day1"/>
+</classes>
+</test>
+<test name="TestingOnFirefox">
+<parameter name="browserName" value="firefox"></parameter>
+<classes>
+<class name="Projec1.Cross_Browser_Day1"/>
+</classes>
+</test> </suite>
+
+
+<!--if we want to not run specific line use this comment >
+    </test> 
+ <test thread-count="5" name="Test"> 
+   </test> -->
