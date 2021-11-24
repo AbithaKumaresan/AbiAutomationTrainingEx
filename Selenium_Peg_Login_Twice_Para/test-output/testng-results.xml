@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-24T21:47:39 IST" name="Suite" finished-at="2021-11-24T21:48:45 IST" duration-ms="66446">
+    <groups>
+    </groups>
+    <test started-at="2021-11-24T21:47:39 IST" name="Valid_Case" finished-at="2021-11-24T21:48:19 IST" duration-ms="39779">
+      <class name="Own_Pack.Pega_Login_Twice_Para">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@a530d0a]" started-at="2021-11-24T21:47:39 IST" name="setup" finished-at="2021-11-24T21:47:43 IST" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@a530d0a]" started-at="2021-11-24T21:47:43 IST" name="launch_app" finished-at="2021-11-24T21:47:49 IST" duration-ms="6150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user(java.lang.String)[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@a530d0a]" started-at="2021-11-24T21:47:49 IST" name="enter_user" finished-at="2021-11-24T21:47:52 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.launch_app" duration-ms="3143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tcapron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd(java.lang.String)[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@a530d0a]" started-at="2021-11-24T21:47:52 IST" name="enter_pswd" finished-at="2021-11-24T21:47:55 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.enter_user" duration-ms="3111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@a530d0a]" started-at="2021-11-24T21:47:55 IST" name="clicklogin" finished-at="2021-11-24T21:48:18 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.enter_pswd" duration-ms="22426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@a530d0a]" started-at="2021-11-24T21:48:18 IST" name="get_title" finished-at="2021-11-24T21:48:18 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.clicklogin" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@a530d0a]" started-at="2021-11-24T21:48:18 IST" name="finish" finished-at="2021-11-24T21:48:19 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.Pega_Login_Twice_Para -->
+    </test> <!-- Valid_Case -->
+    <test started-at="2021-11-24T21:48:19 IST" name="Invalid_Case" finished-at="2021-11-24T21:48:45 IST" duration-ms="26578">
+      <class name="Own_Pack.Pega_Login_Twice_Para">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@290222c1]" started-at="2021-11-24T21:48:19 IST" name="setup" finished-at="2021-11-24T21:48:21 IST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@290222c1]" started-at="2021-11-24T21:48:21 IST" name="launch_app" finished-at="2021-11-24T21:48:26 IST" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user(java.lang.String)[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@290222c1]" started-at="2021-11-24T21:48:26 IST" name="enter_user" finished-at="2021-11-24T21:48:29 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.launch_app" duration-ms="3120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tcapron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd(java.lang.String)[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@290222c1]" started-at="2021-11-24T21:48:29 IST" name="enter_pswd" finished-at="2021-11-24T21:48:32 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.enter_user" duration-ms="3118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@290222c1]" started-at="2021-11-24T21:48:32 IST" name="clicklogin" finished-at="2021-11-24T21:48:36 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.enter_pswd" duration-ms="3950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@290222c1]" started-at="2021-11-24T21:48:36 IST" name="get_title" finished-at="2021-11-24T21:48:45 IST" depends-on-methods="Own_Pack.Pega_Login_Twice_Para.clicklogin" duration-ms="8222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.Pega_Login_Twice_Para@290222c1]" started-at="2021-11-24T21:48:45 IST" name="finish" finished-at="2021-11-24T21:48:45 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.Pega_Login_Twice_Para -->
+    </test> <!-- Invalid_Case -->
+  </suite> <!-- Suite -->
+</testng-results>

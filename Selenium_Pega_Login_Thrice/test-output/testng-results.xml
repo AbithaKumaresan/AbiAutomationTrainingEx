@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-24T20:41:28 IST" name="Suite" finished-at="2021-11-24T20:43:30 IST" duration-ms="121371">
+    <groups>
+    </groups>
+    <test started-at="2021-11-24T20:41:28 IST" name="First_Time" finished-at="2021-11-24T20:42:12 IST" duration-ms="43527">
+      <class name="Own_Pack.Pega_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Own_Pack.Pega_Login@6283d8b8]" started-at="2021-11-24T20:41:28 IST" name="setup" finished-at="2021-11-24T20:41:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.Pega_Login@6283d8b8]" started-at="2021-11-24T20:41:28 IST" name="launch_app" finished-at="2021-11-24T20:41:39 IST" duration-ms="10644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user()[pri:0, instance:Own_Pack.Pega_Login@6283d8b8]" started-at="2021-11-24T20:41:39 IST" name="enter_user" finished-at="2021-11-24T20:41:42 IST" depends-on-methods="Own_Pack.Pega_Login.launch_app" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd()[pri:0, instance:Own_Pack.Pega_Login@6283d8b8]" started-at="2021-11-24T20:41:42 IST" name="enter_pswd" finished-at="2021-11-24T20:41:45 IST" depends-on-methods="Own_Pack.Pega_Login.enter_user" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.Pega_Login@6283d8b8]" started-at="2021-11-24T20:41:45 IST" name="clicklogin" finished-at="2021-11-24T20:42:08 IST" depends-on-methods="Own_Pack.Pega_Login.enter_pswd" duration-ms="22750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:Own_Pack.Pega_Login@6283d8b8]" started-at="2021-11-24T20:42:08 IST" name="get_title" finished-at="2021-11-24T20:42:11 IST" depends-on-methods="Own_Pack.Pega_Login.clicklogin" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.Pega_Login@6283d8b8]" started-at="2021-11-24T20:42:11 IST" name="finish" finished-at="2021-11-24T20:42:12 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.Pega_Login -->
+    </test> <!-- First_Time -->
+    <test started-at="2021-11-24T20:42:12 IST" name="Second_Time" finished-at="2021-11-24T20:42:54 IST" duration-ms="42521">
+      <class name="Own_Pack.Pega_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Own_Pack.Pega_Login@36916eb0]" started-at="2021-11-24T20:42:12 IST" name="setup" finished-at="2021-11-24T20:42:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.Pega_Login@36916eb0]" started-at="2021-11-24T20:42:12 IST" name="launch_app" finished-at="2021-11-24T20:42:21 IST" duration-ms="9382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user()[pri:0, instance:Own_Pack.Pega_Login@36916eb0]" started-at="2021-11-24T20:42:21 IST" name="enter_user" finished-at="2021-11-24T20:42:24 IST" depends-on-methods="Own_Pack.Pega_Login.launch_app" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd()[pri:0, instance:Own_Pack.Pega_Login@36916eb0]" started-at="2021-11-24T20:42:24 IST" name="enter_pswd" finished-at="2021-11-24T20:42:27 IST" depends-on-methods="Own_Pack.Pega_Login.enter_user" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.Pega_Login@36916eb0]" started-at="2021-11-24T20:42:27 IST" name="clicklogin" finished-at="2021-11-24T20:42:51 IST" depends-on-methods="Own_Pack.Pega_Login.enter_pswd" duration-ms="23177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:Own_Pack.Pega_Login@36916eb0]" started-at="2021-11-24T20:42:51 IST" name="get_title" finished-at="2021-11-24T20:42:54 IST" depends-on-methods="Own_Pack.Pega_Login.clicklogin" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.Pega_Login@36916eb0]" started-at="2021-11-24T20:42:54 IST" name="finish" finished-at="2021-11-24T20:42:54 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.Pega_Login -->
+    </test> <!-- Second_Time -->
+    <test started-at="2021-11-24T20:42:54 IST" name="Third_Time" finished-at="2021-11-24T20:43:30 IST" duration-ms="35268">
+      <class name="Own_Pack.Pega_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Own_Pack.Pega_Login@67f639d3]" started-at="2021-11-24T20:42:54 IST" name="setup" finished-at="2021-11-24T20:42:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.Pega_Login@67f639d3]" started-at="2021-11-24T20:42:54 IST" name="launch_app" finished-at="2021-11-24T20:43:03 IST" duration-ms="8948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user()[pri:0, instance:Own_Pack.Pega_Login@67f639d3]" started-at="2021-11-24T20:43:03 IST" name="enter_user" finished-at="2021-11-24T20:43:06 IST" depends-on-methods="Own_Pack.Pega_Login.launch_app" duration-ms="3199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd()[pri:0, instance:Own_Pack.Pega_Login@67f639d3]" started-at="2021-11-24T20:43:06 IST" name="enter_pswd" finished-at="2021-11-24T20:43:10 IST" depends-on-methods="Own_Pack.Pega_Login.enter_user" duration-ms="3141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.Pega_Login@67f639d3]" started-at="2021-11-24T20:43:10 IST" name="clicklogin" finished-at="2021-11-24T20:43:26 IST" depends-on-methods="Own_Pack.Pega_Login.enter_pswd" duration-ms="16222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:Own_Pack.Pega_Login@67f639d3]" started-at="2021-11-24T20:43:26 IST" name="get_title" finished-at="2021-11-24T20:43:29 IST" depends-on-methods="Own_Pack.Pega_Login.clicklogin" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.Pega_Login@67f639d3]" started-at="2021-11-24T20:43:29 IST" name="finish" finished-at="2021-11-24T20:43:30 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.Pega_Login -->
+    </test> <!-- Third_Time -->
+  </suite> <!-- Suite -->
+</testng-results>
