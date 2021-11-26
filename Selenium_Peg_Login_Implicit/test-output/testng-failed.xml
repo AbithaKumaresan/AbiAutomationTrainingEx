@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Valid_Case(failed)">
+    <parameter name="Passw" value="Password@123"/>
+    <parameter name="Userna" value="tcapron"/>
+    <classes>
+      <class name="Own_Pack.Pega_Login_Invoca">
+        <methods>
+          <include name="enter_user"/>
+          <include name="get_title"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="clicklogin"/>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+        </methods>
+      </class> <!-- Own_Pack.Pega_Login_Invoca -->
+    </classes>
+  </test> <!-- Valid_Case(failed) -->
+  <test thread-count="2" parallel="methods" name="Invalid_Case(failed)">
+    <parameter name="Passw" value="Password@12"/>
+    <parameter name="Userna" value="tcapron"/>
+    <classes>
+      <class name="Own_Pack.Pega_Login_Invoca">
+        <methods>
+          <include name="enter_user"/>
+          <include name="get_title"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="clicklogin"/>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+        </methods>
+      </class> <!-- Own_Pack.Pega_Login_Invoca -->
+    </classes>
+  </test> <!-- Invalid_Case(failed) -->
+</suite> <!-- Failed suite [Suite] -->
