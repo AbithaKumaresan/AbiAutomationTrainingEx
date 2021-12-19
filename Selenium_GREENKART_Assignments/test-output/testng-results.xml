@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-19T22:50:40 IST" name="Suite" finished-at="2021-12-19T22:50:47 IST" duration-ms="7239">
+    <groups>
+    </groups>
+    <test started-at="2021-12-19T22:50:40 IST" name="Test" finished-at="2021-12-19T22:50:47 IST" duration-ms="7239">
+      <class name="Own_Pack.Assignment1">
+        <test-method is-config="true" signature="URL()[pri:0, instance:Own_Pack.Assignment1@47987356]" started-at="2021-12-19T22:50:40 IST" name="URL" finished-at="2021-12-19T22:50:45 IST" duration-ms="4956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Add_Products()[pri:0, instance:Own_Pack.Assignment1@47987356]" started-at="2021-12-19T22:50:45 IST" name="Add_Products" finished-at="2021-12-19T22:50:45 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Products -->
+        <test-method signature="Product_Name()[pri:0, instance:Own_Pack.Assignment1@47987356]" started-at="2021-12-19T22:50:45 IST" name="Product_Name" finished-at="2021-12-19T22:50:45 IST" depends-on-methods="Own_Pack.Assignment1.Add_Products" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_Name -->
+        <test-method signature="Product_Price()[pri:0, instance:Own_Pack.Assignment1@47987356]" started-at="2021-12-19T22:50:45 IST" name="Product_Price" finished-at="2021-12-19T22:50:46 IST" depends-on-methods="Own_Pack.Assignment1.Product_Name" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_Price -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.Assignment1@47987356]" started-at="2021-12-19T22:50:46 IST" name="finish" finished-at="2021-12-19T22:50:47 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.Assignment1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

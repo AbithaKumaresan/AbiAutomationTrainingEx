@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Own_Pack.Assignment3">
+        <methods>
+          <include name="potato"/>
+          <include name="Top_Deals"/>
+          <include name="Top_Deals_Page"/>
+          <include name="URL"/>
+        </methods>
+      </class> <!-- Own_Pack.Assignment3 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
