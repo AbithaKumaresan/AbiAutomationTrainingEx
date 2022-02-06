@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-06T16:25:29 IST" name="Suite" finished-at="2022-02-06T16:27:43 IST" duration-ms="133798">
+    <groups>
+    </groups>
+    <test started-at="2022-02-06T16:25:29 IST" name="TestingOnChrome" finished-at="2022-02-06T16:26:10 IST" duration-ms="40937">
+      <class name="Own_Pack.MiniPega">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Own_Pack.MiniPega@c88a337]" started-at="2022-02-06T16:25:29 IST" name="setup" finished-at="2022-02-06T16:25:32 IST" duration-ms="2409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.MiniPega@c88a337]" started-at="2022-02-06T16:25:32 IST" name="launch_app" finished-at="2022-02-06T16:25:34 IST" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.MiniPega@c88a337]" started-at="2022-02-06T16:25:34 IST" name="clicklogin" finished-at="2022-02-06T16:25:52 IST" depends-on-methods="Own_Pack.MiniPega.launch_app" duration-ms="17781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="individuallead(java.lang.String,java.lang.String)[pri:0, instance:Own_Pack.MiniPega@c88a337]" started-at="2022-02-06T16:25:52 IST" name="individuallead" finished-at="2022-02-06T16:25:56 IST" depends-on-methods="Own_Pack.MiniPega.clicklogin" duration-ms="4086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumaresan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individuallead -->
+        <test-method signature="updatelead(java.lang.String)[pri:0, instance:Own_Pack.MiniPega@c88a337]" started-at="2022-02-06T16:25:56 IST" name="updatelead" finished-at="2022-02-06T16:26:02 IST" depends-on-methods="Own_Pack.MiniPega.individuallead" duration-ms="6404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4702970352]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatelead -->
+        <test-method signature="convertlead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Own_Pack.MiniPega@c88a337]" started-at="2022-02-06T16:26:02 IST" name="convertlead" finished-at="2022-02-06T16:26:09 IST" depends-on-methods="Own_Pack.MiniPega.updatelead" duration-ms="7087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2/10/2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertlead -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.MiniPega@c88a337]" started-at="2022-02-06T16:26:09 IST" name="finish" finished-at="2022-02-06T16:26:10 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.MiniPega -->
+    </test> <!-- TestingOnChrome -->
+    <test started-at="2022-02-06T16:26:10 IST" name="TestingOnEdge" finished-at="2022-02-06T16:26:58 IST" duration-ms="47950">
+      <class name="Own_Pack.MiniPega">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Own_Pack.MiniPega@3527942a]" started-at="2022-02-06T16:26:10 IST" name="setup" finished-at="2022-02-06T16:26:14 IST" duration-ms="3433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.MiniPega@3527942a]" started-at="2022-02-06T16:26:14 IST" name="launch_app" finished-at="2022-02-06T16:26:16 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.MiniPega@3527942a]" started-at="2022-02-06T16:26:16 IST" name="clicklogin" finished-at="2022-02-06T16:26:33 IST" depends-on-methods="Own_Pack.MiniPega.launch_app" duration-ms="17403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="individuallead(java.lang.String,java.lang.String)[pri:0, instance:Own_Pack.MiniPega@3527942a]" started-at="2022-02-06T16:26:33 IST" name="individuallead" finished-at="2022-02-06T16:26:38 IST" depends-on-methods="Own_Pack.MiniPega.clicklogin" duration-ms="4956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abitha1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumaresan1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individuallead -->
+        <test-method signature="updatelead(java.lang.String)[pri:0, instance:Own_Pack.MiniPega@3527942a]" started-at="2022-02-06T16:26:38 IST" name="updatelead" finished-at="2022-02-06T16:26:47 IST" depends-on-methods="Own_Pack.MiniPega.individuallead" duration-ms="8855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9677139203]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatelead -->
+        <test-method signature="convertlead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Own_Pack.MiniPega@3527942a]" started-at="2022-02-06T16:26:47 IST" name="convertlead" finished-at="2022-02-06T16:26:57 IST" depends-on-methods="Own_Pack.MiniPega.updatelead" duration-ms="10079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Associate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2/11/2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertlead -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.MiniPega@3527942a]" started-at="2022-02-06T16:26:57 IST" name="finish" finished-at="2022-02-06T16:26:58 IST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.MiniPega -->
+    </test> <!-- TestingOnEdge -->
+    <test started-at="2022-02-06T16:26:58 IST" name="TestingOnFirefox" finished-at="2022-02-06T16:27:43 IST" duration-ms="44810">
+      <class name="Own_Pack.MiniPega">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Own_Pack.MiniPega@130c12b7]" started-at="2022-02-06T16:26:58 IST" name="setup" finished-at="2022-02-06T16:27:03 IST" duration-ms="4430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Own_Pack.MiniPega@130c12b7]" started-at="2022-02-06T16:27:03 IST" name="launch_app" finished-at="2022-02-06T16:27:05 IST" duration-ms="2387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="clicklogin()[pri:0, instance:Own_Pack.MiniPega@130c12b7]" started-at="2022-02-06T16:27:05 IST" name="clicklogin" finished-at="2022-02-06T16:27:26 IST" depends-on-methods="Own_Pack.MiniPega.launch_app" duration-ms="20859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="individuallead(java.lang.String,java.lang.String)[pri:0, instance:Own_Pack.MiniPega@130c12b7]" started-at="2022-02-06T16:27:26 IST" name="individuallead" finished-at="2022-02-06T16:27:28 IST" depends-on-methods="Own_Pack.MiniPega.clicklogin" duration-ms="2213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abitha2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumaresan2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individuallead -->
+        <test-method signature="updatelead(java.lang.String)[pri:0, instance:Own_Pack.MiniPega@130c12b7]" started-at="2022-02-06T16:27:28 IST" name="updatelead" finished-at="2022-02-06T16:27:34 IST" depends-on-methods="Own_Pack.MiniPega.individuallead" duration-ms="6191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4702970248]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatelead -->
+        <test-method signature="convertlead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Own_Pack.MiniPega@130c12b7]" started-at="2022-02-06T16:27:34 IST" name="convertlead" finished-at="2022-02-06T16:27:41 IST" depends-on-methods="Own_Pack.MiniPega.updatelead" duration-ms="6352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Lead]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2/12/2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertlead -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Own_Pack.MiniPega@130c12b7]" started-at="2022-02-06T16:27:41 IST" name="finish" finished-at="2022-02-06T16:27:43 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Own_Pack.MiniPega -->
+    </test> <!-- TestingOnFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>

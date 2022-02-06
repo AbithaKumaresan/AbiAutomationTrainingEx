@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="TestingOnChrome">
+<parameter name="browserName" value="chrome"></parameter>
+<parameter name="firstname" value="Abitha"></parameter>
+<parameter name="lastname" value="Kumaresan"></parameter>
+<parameter name="phone" value="4702970352"></parameter>
+<parameter name="opponame" value="Test Engineer"></parameter>
+<parameter name="date" value="2/10/2022"></parameter>
+<parameter name="amount" value="20000"></parameter>
+
+<classes>
+<class name="Own_Pack.MiniPega"/>
+</classes>
+</test>
+<test name="TestingOnEdge">
+<parameter name="browserName" value="edge"></parameter>
+<parameter name="firstname" value="Abitha1"></parameter>
+<parameter name="lastname" value="Kumaresan1"></parameter>
+<parameter name="phone" value="9677139203"></parameter>
+<parameter name="opponame" value="Test Associate"></parameter>
+<parameter name="date" value="2/11/2022"></parameter>
+<parameter name="amount" value="10000"></parameter>
+<classes>
+<class name="Own_Pack.MiniPega"/>
+</classes>
+</test>
+<test name="TestingOnFirefox">
+<parameter name="browserName" value="firefox"></parameter>
+<parameter name="firstname" value="Abitha2"></parameter>
+<parameter name="lastname" value="Kumaresan2"></parameter>
+<parameter name="phone" value="4702970248"></parameter>
+<parameter name="opponame" value="Test Lead"></parameter>
+<parameter name="date" value="2/12/2022"></parameter>
+<parameter name="amount" value="25000"></parameter>
+<classes>
+<class name="Own_Pack.MiniPega"/>
+</classes>
+</test> 
+</suite>
